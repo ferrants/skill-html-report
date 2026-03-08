@@ -1,0 +1,11 @@
+{
+  "name": "html-report",
+  "version": "1.0.0",
+  "description": "Skill for generating professional HTML reports and documents optimized for print-to-PDF — one-pagers, slide decks, dashboards, and multi-page reports.",
+  "author": {
+    "name": ""
+  },
+  "repository": "",
+  "license": "MIT",
+  "keywords": ["html", "report", "pdf", "print", "document", "slides"]
+}
