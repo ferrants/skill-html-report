@@ -5,13 +5,22 @@ A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skill for genera
 ## Install
 
 ```sh
-claude plugin install /path/to/skill-html-report
+npx skills add ferrants/skill-html-report
 ```
 
-Project-scoped (added to `.claude/plugins.json` in a repo):
+Or for a specific project only:
 
 ```sh
-claude plugin install /path/to/skill-html-report --scope project
+npx skills add ferrants/skill-html-report --scope project
+```
+
+### Customize it
+
+This skill is designed to be forked and customized. Clone the repo, then ask your AI coding tool to tailor it to your brand, preferred themes, or specific report formats:
+
+```sh
+git clone https://github.com/ferrants/skill-html-report.git
+# Open in your AI tool and ask it to customize the skill for your needs
 ```
 
 ## What it does
